@@ -11,6 +11,9 @@
     background-color: rgb(163, 143, 237);
     border: 5px solid rgb(165, 160, 11);
     align-items: center;
+    justify-content: center;
+
+
     
   
 }
@@ -27,6 +30,7 @@
 
 
     border: 3px solid rgb(226, 0, 0);
+    margin-right: 200px;
 }
 
 
