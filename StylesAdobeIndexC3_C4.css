@@ -64,17 +64,19 @@ a{
     border: 1px solid;
 
 }
-.section-sub-3-1-1-3{
+.section-sub-3-1-3-1{
     display: flex;flex-direction: column;
 }
-.btn-app-creative-3-1-1-3{
+.btn-app-creative-3-1-3-1{
 
     height: 35px;
     border: #4400e200 1px solid;
 }
+.titulo-app-creative-3-1-3-1{
 
 
-
+    border-bottom: 1px solid black;
+}
 
 
 .section-container-sub-3-1{
@@ -198,5 +200,75 @@ a{
 
 
 
+
+}
+
+
+/* Configuracion de Imagenes */
+
+
+
+.section-container-sub-3-1-1{
+
+    position: relative;
+
+    z-index: 3;
+}.section-container-sub-4-1-1{
+
+    position: relative;
+
+    z-index: 3;
+}
+
+.img-section{
+
+
+
+}
+.section-image-sub-4-1{
+    
+} 
+.section-image-sub-4-1{
+
+} 
+.section-img1{
+        position: absolute;
+
+    z-index: 0;
+    background-size: contain;
+    width: auto;
+    height: auto;
+
+}
+.section-img2{
+        position: absolute;
+
+    z-index: 0;
+    background-size: cover;
+    width: auto;
+    height: 540px;
+}
+.section-img3{
+        position: absolute;
+
+    z-index: 0;
+
+    
+}
+.section-img4{
+        position: absolute;
+
+    z-index: 0;
+    background-size: cover;
+    width: auto;
+    height: 540px;
+}
+.section-img5{
+        position: absolute;
+
+    z-index: 0;
+    background-size: cover;
+    width: auto;
+    height: 540px;
 
 }
