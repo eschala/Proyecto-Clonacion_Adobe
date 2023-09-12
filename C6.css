@@ -10,7 +10,40 @@ a{
 /* Contenedor 6 */
 .img6{
     background-size: cover;
+    border: 1px solid rgb(32, 0, 36);
+    width: 100%;
+    height: 100%;
 }
+.parrafo{
+    height: 50%;
+    width: 100%;
+    border: 1px solid rgb(25, 36, 0);
+
+}
+.img66{
+    height: 50%;
+    width: 100%;
+    border: 1px solid rgb(31, 187, 91);
+}
+
+.img61{
+    
+    border: 1px solid rgb(199, 180, 12);
+    width: 100%;
+    height: 100%;
+}
+.parrafo1{
+    height: 50%;
+    width: 100%;
+    border: 1px solid rgb(25, 36, 0);
+
+}
+.img661{
+    height: 50%;
+    width: 100%;
+    border: 1px solid rgb(31, 187, 91);
+}
+
 
 .section-6{
     width: 100%;height: 540px;
@@ -18,11 +51,13 @@ a{
     background-color: rgba(137, 43, 226, 0.123);
 }
 
+
 .section-sub-6-1{
 
     margin-left: 40px;margin-right: 40px;
     
     width: auto;height: 540px;
+
 
     display: grid;
 
@@ -36,8 +71,7 @@ a{
 .section-sub-6-1-1{
 
     width: auto;height: 500px ;
-
-    background-color: #9393ff;
+    background: linear-gradient(0deg, rgba(252,51,35,1) 0%, rgba(254,151,136,1) 56%);
     border-color: black;
     border: 1px solid;
     
@@ -45,6 +79,7 @@ a{
 .section-sub-6-1-2{
 
     width: auto;height: 500px ;
+    
     
     background-color: #EB1000;
     border-color: black;
