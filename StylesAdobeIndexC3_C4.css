@@ -10,9 +10,6 @@ a{
 
 /* Contenedor 3 */
 
-.section-container{} 
-
-
 .section-3{
     width: 100%;height: 540px;
     border: 1px solid rgb(36, 0, 0);
@@ -64,6 +61,12 @@ a{
     border: 1px solid;
 
 }
+.section-sub-3-1-1-1{
+    display: flex;flex-direction: column;
+}
+.section-sub-3-1-2-1{
+    display: flex;flex-direction: column;
+}
 .section-sub-3-1-3-1{
     display: flex;flex-direction: column;
 }
@@ -85,11 +88,11 @@ a{
 
 }
 .section-container-sub-3-1-1{
-    margin: 25px;
+/*     margin: 25px;
 
     width: 100%;height: 440px;
-
-    border: 2px solid rgb(0, 38, 255);
+    background-color: #4a9b60;
+    border: 2px solid rgb(200, 0, 255); */
 
 }
 
@@ -100,9 +103,7 @@ a{
     background-color: rgba(255, 178, 223, 0.479);
     
 }
-.section-container-sub-3{
 
-}
 .section-sub-4-1{
     
 
@@ -131,7 +132,7 @@ a{
 
     /* width: 100%; */height: 500px ;
 
-    background-color: #ff93e4;
+    background-color: #ff3cce;
     border-color: black;
     border: 1px solid;
 }
@@ -142,16 +143,16 @@ a{
     
 }
 .section-container-sub-4-1-1{
-    margin: 25px;
+/*     margin: 25px;
 
     width: 100%;height: 440px;
 
-    border: 2px solid rgb(0, 38, 255);
+    border: 2px solid rgb(255, 0, 204);
     text-decoration: none;
 
 
     color: black;
-
+ */
 }
 /* Sub Contenedor para ajustar links de Aplicaciones creativas */
 
@@ -222,43 +223,99 @@ position: relative;
 
 
 
-.section-container-sub-3-1-1{
 
-
-
-}
 .img-section{
 
-position: absolute;
-width: 100px;height: 100px;
+    position: relative;
+
 
 }
-.section-image-sub-4-1{
+
+.section-sub-3-1-1-1{
+
+
+}
+.container-text-1{
+
+    width: 200%;
+    height: 200%;
     
-} 
-.section-image-sub-4-1{
+    z-index: 9;
 
-} 
+    background-color: #4400e2;
+}
+.container-img-1{
+
+    width: 100%;height: 100%;
+    background-color: #4400e200;
+}
 .section-img1{
-
+display: none;
+width: 100%;    height: 100%;
 
 }
 .section-img2{
-
+display: none;
 
 }
 .section-img3{
-
+display: none;
     
 }
 .section-img4{
-
+display: none;
 }
 .section-img5{
-
+display: none;
 
 }
 img{
 
-    background-size: auto;
+}
+
+
+/* Contenedor padre de items */
+.section-sub-3-1-1-1{
+
+    background-color: rgba(220, 20, 60, 0);
+    z-index: 9;
+    width: 100%;
+   
+}
+.section-sub-3-1-2-1{
+    z-index: 9;
+
+}
+.section-sub-3-1-3-1{
+    z-index: 9;
+
+}
+.section-sub-4-1-1-1{
+    z-index: 9;                
+
+}
+.section-sub-4-1-2-1{
+    z-index: 9;
+
+
+}
+
+/* Contendo abuelo de Items */
+
+.section-sub-3-1-1{
+background-color:#4400e22c;
+
+}
+.section-sub-3-1-2{
+background-color:#4400e200;
+}
+.section-sub-3-1-3{
+background-color:#4400e200;
+}
+
+.section-sub-4-1-2{
+background-color:#4400e200;
+}
+.section-sub-4-1-1{
+background-color:#4400e200;
 }
