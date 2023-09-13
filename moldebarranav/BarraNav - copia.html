@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Menú</title>
+    <link rel="stylesheet" href="BarraNav.css">
+</head>
+<body>
+    <input type="checkbox" id="toggler">
+    <label for="toggler"><i class="ri-menu-line"></i></label>
+    <div class="Menu-hamburguesaList">
+        <aside class="Search">
+            <aside id="search-template" class="search">
+                <form action="https://helpx.adobe.com/globalsearch.html" method="GET" class="search-form">
+                    <div class="search-input-wrapper">
+                        <input type="text" name="q" placeholder="Búsqueda" aria-label="Búsqueda" class="search-input" autocomplete="off">
+                        <button type="submit" class="search-button" aria-label="Buscar">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" focusable="false">
+                                <path d="M14 2A8 8 0 0 0 7.4 14.5L2.4 19.4a1.5 1.5 0 0 0 2.1 2.1L9.5 16.6A8 8 0 1 0 14 2Zm0 14.1A6.1 6.1 0 1 1 20.1 10 6.1 6.1 0 0 1 14 16.1Z"></path>
+                            </svg>
+                        </button>
+                    </div>
+                </form>                
+                <div class="search-results-wrapper">
+                    <ul class="search-results" id="search-results"></ul>
+                    <ul class="menu">
+                        <li><a href="#">Creatividad y Diseño</a></li>
+                        <li><a href="#">PDF y firmas electrónicas</a></li>
+                        <li><a href="#">Marketing y Commerce</a></li>
+                        <li><a href="#">Ayuda y asistencia técnica</a></li>
+                    </ul>
+                </div>
+            </div>
+            </aside>
+</body>
+</html>

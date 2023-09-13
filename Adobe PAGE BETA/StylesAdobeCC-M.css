@@ -14,7 +14,7 @@
     align-items: center;
     justify-content: space-between;
     height: 64px;
-    background-color: blue;
+    background-color: rgb(252, 240, 208);
     padding-left: 270px;padding-right: 250px;
     
 
@@ -39,7 +39,7 @@
 .btn-link{  
 
     text-decoration: none;
-    color: azure;
+    color: rgb(0, 0, 0);
     
 
 }

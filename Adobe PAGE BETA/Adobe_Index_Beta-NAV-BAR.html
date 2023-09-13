@@ -6,6 +6,9 @@
     <title>Adobe: soluciones de creatividad, marketing y gestión de documentos</title>
  
     <link rel="stylesheet" href="StylesAdobeCC-M.css">
+
+    <link rel="stylesheet" href="StylesAdobeCC_Nav-Bar.css">
+
     <link rel="stylesheet" href="StylesAdobeCC1.css">
     <link rel="stylesheet" href="StylesAdobeCC2.css">
 
@@ -26,19 +29,63 @@
 
 </head>
 <body>
-    <header class="section-header"><!-- Seccion barra -->
-        <nav class="section-nav">
-         <div class="section-btn c-btn-1"><a href="" class="btn-link btn-1">Adobe</a></div>
-         <div class="section-btn c-btn-2"><a href="" class="btn-link btn-2">Creatividad y diseño</a></div>
-         <div class="section-btn c-btn-3"><a href="" class="btn-link btn-3">PDF y firmas electrónicas</a></div>
-         <div class="section-btn c-btn-4"><a href="" class="btn-link btn-4">Marketing y Commerce</a></div>
-         <div class="section-btn c-btn-5"><a href="" class="btn-link btn-5">Ayuda y Asistencia técnica</a></div>
-         <div class="section-btn c-btn-6"><a href="" class="btn-link btn-6"></a></div>
-         <div class="section-btn c-btn-7"><a href="" class="btn-link btn-7">Buscar</a></div>
-         <div class="section-btn c-btn-8"><a href="" class="btn-link btn-8">Iniciar Sesión</a></div>
-        </nav>
-
-    </header>
+    <header>
+        <nav class="nav container">
+           <button class="boton-menu" aria-expanded="true" aria-haspopup="true" aria-label="Menú de navegación" tabindex="1" role="button" type="button">
+           <div class="menu-toggle">
+               <span></span>
+               <span></span>
+               <span></span>
+           </div>
+          </button> 
+         <div class="logo">
+               <img src="Proyecto_final/Adobe_Corporate_Horizontal_Red_HEX.svg" alt="Logo de la pagina de adobe">
+               <span>Adobe</span>
+           </div>
+           <ul class="menu">
+               <li><a href="#">Creatividad y Diseño</a></li>
+               <li><a href="#">PDF y firmas electrónicas</a></li>
+               <li><a href="#">Marketing y Commerce</a></li>
+               <li><a href="#">Ayuda y asistencia técnica</a></li>
+           </ul>
+           <div class="buscaricon">
+               <p class="equis">&times;/</p>
+                   <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" focusable="false" class="search-icon">
+                       <path d="M14 2A8 8 0 0 0 7.4 14.5L2.4 19.4a1.5 1.5 0 0 0 2.1 2.1L9.5 16.6A8 8 0 1 0 14 2Zm0 14.1A6.1 6.1 0 1 1 20.1 10 6.1 6.1 0 0 1 14 16.1Z"></path>
+                   </svg>
+         </div>
+            <div class="sesión">
+               <a href="#">Iniciar sesión</a>
+               </div>
+           
+           
+       </nav>
+           <div class="Menu-hamburguesaList">
+           <aside class="Search">
+               <aside id="search-template" class="search">
+                   <form action="https://helpx.adobe.com/globalsearch.html" method="GET" class="search-form">
+                       <div class="search-input-wrapper">
+                           <input type="text" name="q" placeholder="Búsqueda" aria-label="Búsqueda" class="search-input" autocomplete="off">
+                           <button type="submit" class="search-button" aria-label="Buscar">
+                               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" focusable="false">
+                                   <path d="M14 2A8 8 0 0 0 7.4 14.5L2.4 19.4a1.5 1.5 0 0 0 2.1 2.1L9.5 16.6A8 8 0 1 0 14 2Zm0 14.1A6.1 6.1 0 1 1 20.1 10 6.1 6.1 0 0 1 14 16.1Z"></path>
+                               </svg>
+                           </button>
+                       </div>
+                   </form>                
+                   <div class="search-results-wrapper">
+                       <ul class="search-results" id="search-results"></ul>
+                       <ul class="menu">
+                           <li><a href="#">Creatividad y Diseño</a></li>
+                           <li><a href="#">PDF y firmas electrónicas</a></li>
+                           <li><a href="#">Marketing y Commerce</a></li>
+                           <li><a href="#">Ayuda y asistencia técnica</a></li>
+                       </ul>
+                   </div>
+               </div>
+               </aside>
+               
+       </header>
 
 <div class="section-container section-1"><!-- Seccion No 1 -->
     <div class="section-sub-container sub-section-1">

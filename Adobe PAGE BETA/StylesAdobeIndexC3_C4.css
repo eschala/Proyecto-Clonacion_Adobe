@@ -124,7 +124,7 @@ img{}
                 background-image: url('Img/2Contenedor2_img1.jpg');
                 background-size: cover;
                 background-repeat: no-repeat;
-                background-position: bottom;
+                background-position: center;
             }
                 .container-text-1{ /* Texto 1*/
                    
