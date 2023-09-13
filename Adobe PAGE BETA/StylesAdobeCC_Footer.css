@@ -2,6 +2,8 @@
     height: 628px;
     background-color: rgba(159, 159, 200, 0.101);
     border: 1px solid black;
+
+    
    
 }
 .section-footer-sub-8-1{
@@ -9,7 +11,9 @@
     margin-left: 20px;margin-right: 20px;
     margin-top:2.9%;
     display: flex;
-    border: 1px solid rgb(247, 40, 126);    
+    border: 1px solid rgb(247, 40, 126);  
+    margin-left: 20%;margin-right: 20%;  
+
 }
 .section-footer-text-sub-8-1-1{
     display: flex;
