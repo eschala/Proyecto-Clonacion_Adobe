@@ -1,0 +1,122 @@
+*{font-family: adobe-clean,Source Sans Pro,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;
+
+}
+a{
+    text-decoration: none;font-weight: bold;
+
+}
+
+
+/* Contenedor 6 */
+.img6{
+    background-size: cover;
+    
+    width: 100%;
+    height: 100%;
+}
+.parrafo{
+    height: 50%;
+    width: 100%;
+ 
+
+}
+.img66{
+    height: 50%;
+    width: 100%;
+    
+    
+}
+
+.img61{
+    
+
+    width: 100%;
+    height: 100%;
+}
+.parrafo1{
+    height: 50%;
+    width: 100%;
+
+}
+.img661{
+    height: 50%;
+    width: 100%;
+   
+}
+
+
+.section-6{
+    width: 100%;height: 540px;
+    background-color: rgba(137, 43, 226, 0.123);
+}
+
+
+.section-sub-6-1{
+
+    margin-left: 40px;margin-right: 40px;
+    
+    width: auto;height: 540px;
+
+
+    display: grid;
+
+    grid-template-columns: repeat(3,1fr);
+    gap: 40px;
+
+
+}
+
+
+.section-sub-6-1-1{
+
+    width: auto;height: 500px ;
+    background: linear-gradient(0deg, rgba(252,51,35,1) 0%, rgba(254,151,136,1) 56%);
+    
+    border: 1px solid;
+    
+}
+.section-sub-6-1-2{
+
+    width: auto;height: 500px ;
+    
+    
+    background-color: #EB1000;
+   
+    border: 1px solid;
+
+}
+.section-sub-6-1-3{
+
+    width: auto;height: 500px ;
+    background-color: #4B1640;
+    
+    border: 1px solid;
+    
+}
+.section-sub-6-1-1-3{
+    display: flex;flex-direction: column;
+    color: white;
+}
+.btn-app-creative-6-1-1-3{
+
+    height: 35px;
+    border: #4400e200 1px solid;
+}
+
+
+
+
+
+.section-container-sub-6-1{
+    display: flex;
+    justify-content: center;align-items: center;
+
+}
+.section-container-sub-6-1-1{
+    margin: 25px;
+
+    width: 100%;height: 440px;
+    
+    
+
+}
