@@ -112,7 +112,7 @@ img{}
                 background-repeat: no-repeat;
                 background-position: center;
             }
-                .container-text-1{ /* Texto 1*/
+                .container-text-6-1{ /* Texto 1*/
                    
                     z-index: 9;
                     height: 100%;
@@ -155,7 +155,7 @@ img{}
 
                
             }
-                .container-text-2{ /* Texto 2*/
+                .container-text-6-2{ /* Texto 2*/
                    
                 z-index: 9;
                 height: 100%;
@@ -164,7 +164,7 @@ img{}
                 color: white;
                 
                 }
-                .container-text-2 a{
+                .container-text-6-2 a{
                     color: white;
                 }
 

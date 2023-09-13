@@ -4,10 +4,11 @@
     border: 1px solid rgba(230, 5, 5, 0);
 
 
-    background-image: url('Img/3Contenedor3_img1desktop.jpeg');
+    background-image: url('Img/5Container-5-imagen-1.jpeg');
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: bottom;
+    background-position: center;
+    
     margin-bottom: 40px;
     
 }
@@ -27,7 +28,6 @@
 
 
 
-    
     }
 
 .section-container-sub-5-1-1-1{
@@ -37,6 +37,7 @@
 
     border: 3px solid rgba(226, 0, 0, 0);
     margin-right: 920px;
+
 }
 
 
