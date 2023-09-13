@@ -1,13 +1,27 @@
 .section-7{
 /*     height: 71.7+43.7px; */
-    height: 115.4px;
+    height: 200px;width: 100%;
 
     border: 1px solid black;
+
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;justify-content: center;
 }
+
 .section-container-sub-7-1{
+    display: flex;
+    flex-direction: row;
 
-    height: 75.4px;
-    margin-left: 40px;margin-right: 40px;
+    align-items: center;justify-content: center;
 
-    border: 1px solid black;
+
+height: 100%;width: 100%;
+background-color: aqua;
+
+}
+.section-container-sub-7-1-1{
+
+    margin: 2px;
 }

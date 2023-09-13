@@ -1,122 +1,219 @@
+/* Selecciones Universales  */
+
 *{font-family: adobe-clean,Source Sans Pro,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;
 
 }
-a{
-    text-decoration: none;font-weight: bold;
 
+div{}
+a{ text-decoration: none;font-weight: bold;
+    color: black;}
+h2{}
+h3{}
+p{}
+img{}
+
+
+/* Selectores GENERALES */
+/* Contenedores */
+
+.section-container{}
+
+/* 3 */
+/* section-container section-3 */
+
+.section-container-sub-6{}
+
+.section-container-sub-3-1{
+    display: flex;
+    justify-content: center;align-items: center;
 }
 
-
-/* Contenedor 6 */
-.img6{
-    background-size: cover;
-    
-    width: 100%;
-    height: 100%;
-}
-.parrafo{
-    height: 50%;
-    width: 100%;
- 
-
-}
-.img66{
-    height: 50%;
-    width: 100%;
-    
-    
-}
-
-.img61{
-    
-
-    width: 100%;
-    height: 100%;
-}
-.parrafo1{
-    height: 50%;
-    width: 100%;
-
-}
-.img661{
-    height: 50%;
-    width: 100%;
+.section-container-sub-6-1-1{
    
-}
-
-
-.section-6{
-    width: 100%;height: 540px;
-    background-color: rgba(137, 43, 226, 0.123);
-}
-
-
-.section-sub-6-1{
-
-    margin-left: 40px;margin-right: 40px;
-    
-    width: auto;height: 540px;
-
-
-    display: grid;
-
-    grid-template-columns: repeat(3,1fr);
-    gap: 40px;
-
 
 }
 
+.img-section{
 
-.section-sub-6-1-1{
-
-    width: auto;height: 500px ;
-    background: linear-gradient(0deg, rgba(252,51,35,1) 0%, rgba(254,151,136,1) 56%);
-    
-    border: 1px solid;
-    
+    position: relative;
 }
-.section-sub-6-1-2{
+.section-image-sub-6-1{}
 
-    width: auto;height: 500px ;
-    
-    
-    background-color: #EB1000;
-   
-    border: 1px solid;
+/* Titulos H3 Contenedor "section-container-sub-3-1-1" */
+.titulo-app-creative-6-1-3-1{
 
+
+    border-bottom: 1px solid rgb(255, 255, 255);
 }
-.section-sub-6-1-3{
 
-    width: auto;height: 500px ;
-    background-color: #4B1640;
-    
-    border: 1px solid;
-    
-}
-.section-sub-6-1-1-3{
-    display: flex;flex-direction: column;
-    color: white;
-}
-.btn-app-creative-6-1-1-3{
-
+/* Botones a Contenedor "section-container-sub-3-1-1" */
+.btn-app-creative-6-1-3-1{
     height: 35px;
     border: #4400e200 1px solid;
 }
 
 
+.img-section{}
+
+/* Titulos H2 Contenedor "section-container-sub-4-1-1 y section-container-sub-4-1-2" */
+
+/* Botones a Contenedor "section-container-sub-4-1-1 y section-container-sub-4-1-2" */
 
 
+/* Extra 3 y 4 contenedor tatara nieto/imagen*/
 
-.section-container-sub-6-1{
-    display: flex;
-    justify-content: center;align-items: center;
+.section-sub-text-last{
 
-}
-.section-container-sub-6-1-1{
     margin: 25px;
-
-    width: 100%;height: 440px;
     
-    
-
+    border: #00000000 2px solid;
 }
+
+
+/* Selectores INDIVIDUALES */
+/* Contenedores */
+
+/*section-3 */
+.section-6{
+    width: 100%;height: 500px;
+
+    background-color: rgba(137, 43, 226, 0);
+}
+
+    .section-sub-6-1{
+        margin-left: 40px;margin-right: 40px;
+    
+        width:auto;height:500px;
+    
+        display: grid;
+    
+        grid-template-columns: repeat(3,1fr);
+        gap: 40px;
+    }
+        .section-sub-6-1-1{
+            width: auto;height:500px ;
+
+            background-color: #9393ff00;
+            border-color: rgba(0, 0, 0, 0);
+
+            position: relative;
+
+            background-color:#4400e22c;
+        }
+            .section-sub-6-1-1-1{
+                display: flex;flex-direction: column;
+
+                background-color: rgba(220, 20, 60, 0);
+                z-index: 9;
+                width: 100%;height: 100%;
+
+                background-image: url('Img/2Contenedor2_img1.jpg');
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: center;
+            }
+                .container-text-1{ /* Texto 1*/
+                   
+                    z-index: 9;
+                    height: 100%;
+                    background-color: #ffffff00;
+
+                    color: black;
+                    
+                }
+                .container-img-1{
+
+                    position: absolute;
+
+                    background-color: #acd0ff00;
+
+                    z-index: 0;
+                }
+
+    .section-img1{
+        background-size: auto;
+    }
+    .section-img1{
+        z-index: 0;
+
+        background-size: cover;
+        background-image: url("");
+    }
+        .section-sub-6-1-2{
+            width:auto;height:500px ;
+
+            background-color: #69e20000;
+
+        }
+            .section-sub-6-1-2-1{ /* Texto */
+                display: flex;flex-direction: column;
+                align-content:start;
+                background-color: #EB1000;
+                width: 100%;height: 100%;
+                z-index: 9;
+
+
+               
+            }
+                .container-text-2{ /* Texto 2*/
+                   
+                z-index: 9;
+                height: 100%;
+                background-color: #08007e00;
+
+                color: white;
+                
+                }
+                .container-text-2 a{
+                    color: white;
+                }
+
+    .section-img2{
+        display: none;
+        width: 100%;height: 100%;
+    }
+        .section-sub-6-1-3{
+            width: auto;height:500px ;
+
+            background-color:#4b1640;
+        }
+            .section-sub-6-1-3-1{
+                display: flex;flex-direction: column;
+                height: 100%;
+                width: 100%;
+                background-color: #9797fc00;
+                z-index: 9;
+            }   
+                .container-text-6{ /* Texto 3*/
+                   
+                z-index: 9;
+                height: 100%;
+                background-color: #ffffff00;
+
+                display: flex;
+                flex-direction: column;
+
+                    color: white;   
+                
+                }
+                .container-text-6 a{ /* Texto 3*/
+                   
+                    color: white;    
+                }
+
+                .section-sub-btn-6-1-3-1-h3-1{}
+                .section-sub-btn-6-1-3-1-1{}
+                .section-sub-btn-6-1-3-1-2{}
+                .section-sub-btn-6-1-3-1-h3-2{}
+                .section-sub-btn-6-1-3-1-3{}
+                .section-sub-btn-6-1-3-1-4{}
+                .section-sub-btn-6-1-3-1-5{}
+                .section-sub-btn-6-1-3-1-6{}
+                .section-sub-btn-6-1-3-1-7{}
+                .section-sub-btn-6-1-3-1-8{}
+                .section-sub-btn-6-1-3-1-9{}
+    .section-img3{
+        display: none;
+        width: 100%;height: 100%;
+    }
+

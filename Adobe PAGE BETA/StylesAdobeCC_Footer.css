@@ -101,4 +101,28 @@
 }
 
 
+.section-footer-final{
+display: flex;
+justify-content: space-between;
+
+} 
+.section-ultimate-1{
+
+
+}
+.section-footer-final-1{
+    background-color: rgba(0, 0, 255, 0.267);
+
+    height: 100px;
+
+} 
+.section-ultimate-1-1{
+    width: 30%;
+    
+}
+.section-ultimate-1-2{
+    width: 50%;    
+
+}
+
 
