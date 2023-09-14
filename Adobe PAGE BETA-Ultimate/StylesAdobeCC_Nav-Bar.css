@@ -1,0 +1,143 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+/* NAV-BAR */
+
+
+
+.section-0 {
+
+    display: flex;
+    flex-direction: row;
+
+}
+
+.section-sub-nav-0 {
+    display: flex;
+    flex-direction: row;
+
+
+
+}
+
+.section-0 {
+
+    background-color: rgb(255, 255, 255);
+    height: 64px;
+
+    display: flex;
+    justify-content: center;
+
+}
+
+.section-sub-nav-0 {
+
+
+
+    border: 1px rgba(0, 0, 0, 0) solid;
+    width: 1440px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+.section-0-sub {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.section-sub-nav-0-1 {
+    background-color: rgba(123, 123, 255, 0);
+    display: flex;
+    align-items: center;
+
+
+}
+
+.section-sub-nav-0-2 {
+    background-color: rgba(255, 125, 125, 0);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 130px;
+
+}
+
+.section-btn-nav-1 {
+    display: flex;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.section-btn-nav-2 {
+    display: flex;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/* IMG */
+
+.Logo-ADOBE-MAIN {
+
+    width: 25px;
+    height: auto;
+
+}
+
+.section-0 a {
+    text-decoration: none;
+
+    font-size: 15px;
+
+}
+
+.Logo-ADOBE-MAIN-btn {
+
+
+
+    background-color: rgba(154, 154, 255, 0);
+}
+
+/* .section-btn-nav-1 a{
+
+    color: rgb(0, 0, 0);
+}
+.section-btn-nav-2 a{
+
+    color: rgb(0, 0, 0);
+} */
+
+.btn-link {
+
+    color: black;
+}
+
+
+.Logo-ADOBE-MAIN-btn {
+    color: red;
+    font-weight: bold;
+}
+
+.Adobe-Main-BTN {
+    width: 75px;
+    border: 1px solid rgba(255, 0, 0, 0);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+.Logo-SEARCH-NAV {
+    width: 20px;
+    height: 20px;
+
+
+}
