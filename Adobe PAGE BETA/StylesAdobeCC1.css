@@ -2,7 +2,6 @@
 .section-container{
    
     background-color: rgba(255, 255, 255, 0);
-
     
 } 
 .section-1{
@@ -16,7 +15,6 @@
     background-repeat: no-repeat;
     background-position: bottom;
     
-
 }
 .container-img-1{
     height: 650px;width:99% ;
@@ -24,10 +22,7 @@
     z-index: 0;
     opacity: 90%;
 
-
 }
-
-
 
 .sub-section-1{
     width: 1440px;
@@ -36,8 +31,6 @@
     display: flex;
     z-index: 1;
     align-items: center;
-
-
 
 
 }
@@ -50,13 +43,7 @@
 
     z-index: 2;
 
-    
-
-
-}
-
-
-
+   }
 
 .sub3-section-1{
 
@@ -68,11 +55,7 @@
     font-size: 15pt;
 
 }
-.section-sub4-text{
 
-
-
-}
 .sub4-txt-p{
     z-index: 3;
 }
@@ -121,8 +104,6 @@
     border: 2px solid rgba(87, 193, 255, 0);
     z-index: 2;
 }
-
-
 
 
 .sub2-section-2{
