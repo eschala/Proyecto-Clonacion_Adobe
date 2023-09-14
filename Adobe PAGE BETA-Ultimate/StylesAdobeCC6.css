@@ -18,15 +18,9 @@ a {
 
 
 /* 3 */
-/* section-container section-3 */
+/* section-container section-6 */
 
 
-
-.section-container-sub-3-1 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
 
 
@@ -36,14 +30,16 @@ a {
 }
 
 
-/* Titulos H3 Contenedor "section-container-sub-3-1-1" */
+/* Titulos H3 Contenedor "section-container-sub-6-1-1" */
 .titulo-app-creative-6-1-3-1 {
 
-
+    margin-bottom: 30px;
     border-bottom: 1px solid rgb(255, 255, 255);
+
+
 }
 
-/* Botones a Contenedor "section-container-sub-3-1-1" */
+/* Botones a Contenedor "section-container-sub-6-1-1" */
 .btn-app-creative-6-1-3-1 {
     height: 35px;
     border: #4400e200 1px solid;
@@ -52,12 +48,12 @@ a {
 
 
 
-/* Titulos H2 Contenedor "section-container-sub-4-1-1 y section-container-sub-4-1-2" */
+/* Titulos H2 Contenedor "section-container-sub-6-1-1 y section-container-sub-4-1-2" */
 
-/* Botones a Contenedor "section-container-sub-4-1-1 y section-container-sub-4-1-2" */
+/* Botones a Contenedor "section-container-sub-6-1-1 y section-container-sub-4-1-2" */
 
 
-/* Extra 3 y 4 contenedor tatara nieto/imagen*/
+/* Extra 6 contenedor tatara nieto/imagen*/
 
 .section-sub-text-last {
 
@@ -128,6 +124,26 @@ a {
     color: black;
 
 }
+.over-image-s6-A{/* contendor imagen */
+    text-align: center;
+    position: relative;
+
+}
+
+/* .over-img-s6-A1{
+    
+
+} */
+.over-image-s6-B{/* contendor imagen */
+    text-align: center;
+    position: relative;
+
+}
+
+/* .over-img-s6-B1{
+    
+
+} */
 
 .container-img-1 {
 
@@ -220,6 +236,8 @@ a {
 
     color: white;
 
+    margin-bottom: 60px;
+
 }
 
 .container-text-6 a {
@@ -233,4 +251,24 @@ a {
     display: none;
     width: 100%;
     height: 100%;
+}
+
+.titulo-app-creative-6-1-3-1{
+
+    height: 100%;
+    
+}
+
+.btn-app-creative-6-1-3-1{
+
+    height: 100%;
+
+}
+.btn-app-creative-6-1-3-1{
+
+    font-size: 15px;
+    
+
+ 
+
 }
