@@ -1,3 +1,8 @@
+*{font-family: adobe-clean,Source Sans Pro,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;
+
+
+}
+
 .section-footer{
 
     height: auto;width: 100%;
@@ -137,13 +142,12 @@
 .productos{
     display: flex;
     justify-content: center;
-    margin-top: 10px;
-    gap: 25px;
+
 }
 
 .productos p{
     display: flex;
-    font-size: 14px;
+    font-size: 12px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: rgba(20, 13, 13, 0.716);
 }
@@ -166,10 +170,12 @@ justify-content: space-between;
 } 
 .section-ultimate-1-1{
     width: 30%;
+    background-color: aqua;
     
 }
 .section-ultimate-1-2{
     width: 50%;    
+    background-color: cornflowerblue;
 
 }
 
@@ -204,4 +210,60 @@ justify-content: space-between;
 .footer-8-1-1-5{
     background-color: rgb(129, 129, 255);
 
+}
+
+
+.Logos-Adobe{
+
+
+    width: 20px;height: auto;
+
+}
+
+
+.productos{
+    
+    display: flex;
+
+    flex-direction: row;
+
+
+
+}
+.Adobe-Creative-Elements{
+
+    display: flex;
+    align-items: center;
+
+    padding: 10px;
+    font-size: 10px;
+
+    background-color: rgba(138, 138, 238, 0.413);
+
+
+}
+.txt-p-adobe{
+
+
+    margin: 5px;
+}
+
+
+
+/* Images */
+.section-ultimate-1-1{
+
+    display: flex;
+    align-items: center;
+}
+.section-ultimate-1-2{
+
+    display: flex;
+    align-items: center;
+    font-size: 10px;
+}
+
+.img-size{
+
+    width: 20px; height: auto;
 }
