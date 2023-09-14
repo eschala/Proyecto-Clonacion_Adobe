@@ -1,0 +1,36 @@
+.section-2 {
+    height: (109px)-50px;
+    width: auto;
+
+}
+
+
+
+
+.section-sub-1 {
+
+    width: auto;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.creative-border-sub-1 {
+    position: relative;
+    top: 10px;
+    border-top: 0.5px solid rgba(0, 0, 0, 0.055);
+    width: auto;
+    height: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+.creative-link-text {
+    padding-top: 10px;
+    text-decoration: none;
+    margin: 15px;
+
+}
