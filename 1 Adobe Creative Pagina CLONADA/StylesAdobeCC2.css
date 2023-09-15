@@ -34,3 +34,21 @@
     margin: 15px;
 
 }
+
+.section-sub-1-2{ color:#1473e6;
+}
+
+.section-sub-1-3{ color:#1473e6;
+}
+
+.section-sub-1-4{ color:#1473e6;
+}
+.section-sub-1-2:hover{text-decoration: underline;
+}
+
+.section-sub-1-3:hover{text-decoration: underline; 
+}
+
+.section-sub-1-4:hover{text-decoration: underline; 
+}
+
