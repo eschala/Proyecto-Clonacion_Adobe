@@ -1,0 +1,45 @@
+.section-7 {
+    /*     height: 71.7+43.7px; */
+    height: 200px;
+    width: 100%;
+
+    border: 1px solid rgba(0, 0, 0, 0);
+
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+    justify-content: center;
+}
+
+.section-container-sub-7-1 {
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+    justify-content: center;
+
+
+    height: 100%;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+
+}
+
+.section-container-sub-7-1-1 {
+
+    margin: 2px;
+}
+
+.container-sub-7-2 {
+
+    color: #1473e6;
+
+    font-weight: 400;
+}
+.container-sub-7 a :hover{
+
+
+    text-decoration: underline;
+
+}
